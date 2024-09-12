@@ -1,0 +1,68 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #dfe6e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.areaLogin {
+    background: #2d3436;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+.areaLogin h1 {
+    margin-bottom: 30px;
+    color: #ffeaa7;
+    font-family: 'Courier New', monospace;
+    font-size: 26px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.areaLogin input {
+    width: calc(100% - 24px);
+    padding: 14px;
+    margin: 14px 0;
+    border: 1px solid #b2bec3;
+    border-radius: 6px;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    color: #2d3436;
+    font-family: 'Roboto', sans-serif;
+}
+
+.areaLogin button {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    background-color: #0984e3;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.areaLogin button:hover {
+    background-color: #74b9ff;
+    transform: scale(1.08);
+}
+
+#mensagemErro {
+    display: none;
+    color: #ff7675;
+    margin-top: 15px;
+    font-size: 16px;
+    font-style: italic;
+}
